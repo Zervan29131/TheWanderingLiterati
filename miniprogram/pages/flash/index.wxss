@@ -1,0 +1,16 @@
+/* miniprogram/pages/flash/index.wxss */
+.mContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mContainer button{
+  position:absolute;
+  bottom: 25%;
+}
+.back{
+  width: 100%;
+  height: 100%;
+  position:absolute;
+}
