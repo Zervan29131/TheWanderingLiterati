@@ -28,16 +28,19 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "enableEngineNative": false,
     "useIsolateContext": true,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
-    "showES6CompileOption": false
+    "disableUseStrict": false,
+    "showES6CompileOption": false,
+    "useCompilerPlugins": false,
+    "ignoreUploadUnusedFiles": true,
+    "minifyWXML": true
   },
-  "appid": "wx1db2838db6d33694",
-  "projectname": "%E5%A2%A8%E5%AE%A2%E8%A1%8C",
+  "appid": "wx02043a3c99286e7d",
+  "projectname": "TheWanderingLiterati",
   "libVersion": "2.16.1",
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
