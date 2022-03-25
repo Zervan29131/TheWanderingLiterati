@@ -13,7 +13,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
- 
+
     // 查看是否授权
      wx.getSetting({
       success(res) {
@@ -26,7 +26,8 @@ Page({
               db.collection('UserInfo').where({
                 name: app.globalData.userInfo.nickName
               }).get().then(e => {
-               // console.log(e)
+//
+                // console.log(e)
                 //如果没有注册过，注册
                 //小程序端一般不请求数据库，如果有时间可以把这个写成云函数
                 //正式版需要移除初始静夜思
@@ -54,6 +55,7 @@ Page({
                       data: gameInfo
                     })
                     .then(res => {
+                      
                  //     console.log(res)
                       getApp().globalData.gameInfo = gameInfo
                       wx.switchTab({

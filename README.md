@@ -16,8 +16,11 @@
 
 https://cloud1-5geuzo8h61e6ab0a-1310011202.tcloudbaseapp.com/wx-cms/#/project/content/5b049cc86225ca550f96e2b8114eed93/edit?pid=41ae62ef6225ca0a0ae07e8d7b4ef936
 
-账号:abox
 
+账号：zero
+密码：wwwasd123
+
+账号:abox
 密码:gh13235990939
 
 主要功能：
