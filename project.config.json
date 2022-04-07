@@ -38,12 +38,13 @@
     "minifyWXML": true,
     "showES6CompileOption": false,
     "useCompilerPlugins": false,
-    "ignoreUploadUnusedFiles": true
+    "ignoreUploadUnusedFiles": true,
+    "useStaticServer": true
   },
   "appid": "wxa8c46af0559163f9",
   "projectname": "TheWanderingLiterati",
   "libVersion": "2.16.1",
-  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
   "condition": {
     "search": {
       "list": []
@@ -61,10 +62,52 @@
       "list": [
         {
           "id": -1,
-          "name": "db guide",
-          "pathName": "pages/databaseGuide/databaseGuide"
+          "name": "视频进入页",
+          "pathName": "pages/study/study",
+          "query": ""
+        },
+        {
+          "name": "扫码",
+          "pathName": "pages/study/scan/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "视频学习",
+          "pathName": "pages/study/toVideo/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "挑战",
+          "pathName": "pages/selectRecord/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "商铺",
+          "pathName": "pages/sumRecordResult/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "购物界面",
+          "pathName": "pages/updateRecord/index",
+          "query": "",
+          "scene": null
         }
       ]
     }
-  }
+  },
+  "compileType": "miniprogram",
+  "srcMiniprogramRoot": "miniprogram/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "description": "项目配置文件，详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
 }

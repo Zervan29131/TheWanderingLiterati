@@ -43,7 +43,7 @@ function getCode(token,name){
       'Content-Type': 'application/json'
     },
     body:{
-      path : "miniprogram/pages/study/second/index.wxml?name=" + name
+      path : "miniprogram/pages/study/study.wxml?name=" + name
     }
   })
 }

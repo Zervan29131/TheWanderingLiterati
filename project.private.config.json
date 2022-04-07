@@ -1,65 +1,51 @@
 {
   "setting": {},
   "condition": {
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
     "miniprogram": {
       "list": [
         {
-          "id": -1,
-          "name": "db guide",
-          "pathName": "pages/databaseGuide/databaseGuide",
+          "name": "视频进入页",
+          "pathName": "pages/study/study",
           "query": ""
         },
         {
-          "name": "pages/getOpenId/index",
-          "pathName": "pages/getOpenId/index",
+          "name": "扫码",
+          "pathName": "pages/study/scan/scan",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/deployService/index",
-          "pathName": "pages/deployService/index",
+          "name": "视频学习",
+          "pathName": "pages/study/toVideo/toVideo",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/selectRecord/index",
-          "pathName": "pages/selectRecord/index",
+          "name": "挑战",
+          "pathName": "pages/exam/exam",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/sumRecordResult/index",
-          "pathName": "pages/sumRecordResult/index",
+          "name": "挑战内容",
+          "pathName": "pages/exam/addContent/addContent",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/updateRecord/index",
-          "pathName": "pages/updateRecord/index",
+          "name": "商铺",
+          "pathName": "pages/shop/shop",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/updateRecordResult/index",
-          "pathName": "pages/updateRecordResult/index",
+          "name": "购物界面",
+          "pathName": "pages/shop/shop",
           "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/updateRecordSuccess/index",
-          "pathName": "pages/updateRecordSuccess/index",
           "scene": null
         }
       ]
     }
-  }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html"
 }

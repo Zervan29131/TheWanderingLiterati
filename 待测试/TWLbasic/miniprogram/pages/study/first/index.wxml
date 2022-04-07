@@ -1,0 +1,12 @@
+<view class="mContainer">
+  <!-- 已扫描过的视频 -->
+    <view animation="{{slide_up}}" class="sitem" data-url="{{item.url}}" bindtap="toVideo" wx:for="{{video_list}}">
+      <view class="item">
+        <image class="logo" src="{{item.image}}"></image>
+        <text>{{item.name}}</text>
+        <image class="back" src="/static/icon_back.png"></image>
+      </view>
+      <!-- 横线 -->
+      <view class="line"></view>
+    </view>
+</view>

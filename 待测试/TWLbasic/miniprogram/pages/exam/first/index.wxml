@@ -1,0 +1,14 @@
+<!--pages/exam/index.wxml-->
+<view class="mContainer">
+  <!-- 已扫描过的视频 -->
+ 
+    <view wx:for="{{test_list}}" wx:for-index="index" data-item="{{item}}" class="sitem" bindtap="toTest" >
+      <view class="item">
+        <text>题目 {{index+1}}  </text>
+        <image class="back" src="/static/icon_back.png"></image>
+      </view>
+      <!-- 横线 -->
+      <view class="line"></view>
+    </view>
+
+</view>

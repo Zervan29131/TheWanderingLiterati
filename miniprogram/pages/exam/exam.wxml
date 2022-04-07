@@ -1,0 +1,10 @@
+<view class="mContainer">
+  <!-- 已扫描过的视频 -->
+    <view wx:for="{{test_list}}" wx:for="exam" wx:key="_id" class="sitem" bindtap="gotoPage" data-item="{{item}}">
+      <view class="item">
+        <image class="back" src="/static/icon_back.png"></image>
+        <text>题目 {{item.exam}}  </text>
+      </view>
+      <view class="line"></view>
+    </view>
+</view>

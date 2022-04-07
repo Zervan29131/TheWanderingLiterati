@@ -1,29 +1,29 @@
 {
   "pages": [
-    "pages/flash/index",
-    "pages/shop/first/index",
-    "pages/study/first/index",
-    "pages/study/second/index",
-    "pages/exam/first/index",
-    "pages/exam/second/index"
+    "pages/study/study",
+    "pages/study/scan/scan",
+    "pages/study/toVideo/toVideo",
+    "pages/shop/shop",
+    "pages/exam/exam",
+    "pages/exam/addContent/addContent"
   ],
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/study/first/index",
-        "text": "学习",
+        "pagePath": "pages/study/study",
+        "text": "视频",
         "iconPath": "static/icon_study.png",
         "selectedIconPath": "static/icon_study_select.png"
       },
       {
-        "pagePath": "pages/exam/first/index",
-        "text": "测试",
+        "pagePath": "pages/exam/exam",
+        "text": "挑战",
         "iconPath": "static/icon_exam.png",
         "selectedIconPath": "static/icon_exam_select.png"
       },
       {
-        "pagePath": "pages/shop/first/index",
-        "text": "商店",
+        "pagePath": "pages/shop/shop",
+        "text": "商铺",
         "iconPath": "static/icon_shop.png",
         "selectedIconPath": "static/icon_shop_select.png"
       }

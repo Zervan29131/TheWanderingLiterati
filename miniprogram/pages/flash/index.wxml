@@ -1,5 +1,0 @@
-<!-- 闪屏幕页 -->
-<view class="mContainer">
-<image class="back" src="../../static/flash.png"></image>
-<button  wx:if="{{canIUse}}"  open-type="getUserInfo" >开始游戏</button>
-</view>
