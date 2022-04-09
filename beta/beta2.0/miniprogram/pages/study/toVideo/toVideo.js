@@ -1,28 +1,21 @@
-// pages/third/index.js
-const app = getApp()
+// pages/study/second/index.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    userInfo: null,
-    gameInfo: null,
-    List:[
-      {
-        url:"", //商品照片
-        text: "盲盒商品",
-        detail: "猜猜里面有什么？",
-        cost: "999"
-      },
-    ]
+    url:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log(options.url)
     this.setData({
-      userInfo: app.globalData.userInfo,
-      gameInfo: app.globalData.gameInfo
+      url: options.url
     })
-    
   },
 
   /**
@@ -36,14 +29,14 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    app.slideupshow(this, 'slide_up', "", 1)
+
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-    app.slideupshow(this, 'slide_up', "", 0)
+
   },
 
   /**
