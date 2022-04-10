@@ -1,32 +1,32 @@
 {
   "pages": [
-    "pages/study/study",
-    "pages/study/scan/scan",
-    "pages/study/toVideo/toVideo",
-    "pages/shop/shop",
-    "pages/exam/exam",
-    "pages/exam/addContent/addContent",
-    "pages/shop/interface/interface"
+    "pages/videoEnter/videoEnter",
+    "pages/videoEnter/scan/scan",
+    "pages/videoEnter/study/study",
+    "pages/challenge/challenge",
+    "pages/challenge/options/options",
+    "pages/store/store",
+    "pages/store/detail/detail"
   ],
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/study/study",
+        "pagePath": "pages/videoEnter/videoEnter",
         "text": "视频",
-        "iconPath": "static/icon_study.png",
-        "selectedIconPath": "static/icon_study_select.png"
+        "iconPath": "./images/icon_study.png",
+        "selectedIconPath": "./images/icon_study_select.png"
       },
       {
-        "pagePath": "pages/exam/exam",
+        "pagePath": "pages/challenge/challenge",
         "text": "挑战",
-        "iconPath": "static/icon_exam.png",
-        "selectedIconPath": "static/icon_exam_select.png"
+        "iconPath": "./images/icon_exam.png",
+        "selectedIconPath": "./images/icon_exam_select.png"
       },
       {
-        "pagePath": "pages/shop/shop",
+        "pagePath": "pages/store/store",
         "text": "商铺",
-        "iconPath": "static/icon_shop.png",
-        "selectedIconPath": "static/icon_shop_select.png"
+        "iconPath": "./images/icon_shop.png",
+        "selectedIconPath": "./images/icon_shop_select.png"
       }
     ]
   },

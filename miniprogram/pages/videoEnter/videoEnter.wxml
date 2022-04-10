@@ -1,0 +1,13 @@
+<!--pages/toVideo/toVideo.wxml-->
+<view class="mContainer">
+  <!-- 已扫描过的视频 -->
+    <view  wx:for="{{video_list}}" class="sitem" animation="{{slide_up}}"  wx:key="_id" bindtap="toVideo" data-url="{{item.url}}">
+      <view class="item">
+        <image class="logo" src="{{item.image}}"></image>
+        <text>{{item.name}}</text>
+        <image class="back" src="../../images/icon_back.png"></image>
+      </view>
+      <!-- 横线 -->
+      <view class="line"></view>
+    </view>
+</view>

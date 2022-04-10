@@ -5,42 +5,42 @@
       "list": [
         {
           "name": "视频进入页",
-          "pathName": "pages/study/study",
+          "pathName": "pages/videoEnter/videoEnter",
           "query": ""
         },
         {
           "name": "扫码",
-          "pathName": "pages/study/scan/scan",
+          "pathName": "pages/videoEnter/scan/scan",
           "query": "",
           "scene": null
         },
         {
           "name": "视频学习",
-          "pathName": "pages/study/toVideo/toVideo",
+          "pathName": "pages/videoEnter/study/study",
           "query": "",
           "scene": null
         },
         {
           "name": "挑战",
-          "pathName": "pages/exam/exam",
+          "pathName": "pages/challenge/challenge",
           "query": "",
           "scene": null
         },
         {
           "name": "挑战内容",
-          "pathName": "pages/exam/addContent/addContent",
+          "pathName": "pages/challenge/options/options",
           "query": "",
           "scene": null
         },
         {
           "name": "商铺",
-          "pathName": "pages/shop/shop",
+          "pathName": "pages/store/store",
           "query": "",
           "scene": null
         },
         {
           "name": "购物界面",
-          "pathName": "pages/shop/interface/interface",
+          "pathName": "pages/shop/detail/detail",
           "query": "",
           "scene": null
         }

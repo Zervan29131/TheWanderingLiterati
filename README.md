@@ -1,3 +1,9 @@
+## 目前正在进行
+
+1. 扫码页面
+2. 商品页面
+3. 视频学习横屏状态
+
 ## 主要功能需求
 
 1. 视频学习：游戏中扫描仪扫描后将弹出相关视频二维码，用户扫码后即可跳转到视频学习界面，点击播放按钮即可播放。
@@ -15,31 +21,20 @@
    检查地址及商品数量无误后，点击订单页面“确认付款”(仅包括虚拟金币及运费款项)。
 
 
+## 原型墨刀网址:《墨客行》
+https://modao.cc/app/thyDYFetr7gcmuAzix3klC 
 
 ## 后台CMS网址：
-
 https://cloud1-7g0xlt177727b85b-1310532565.tcloudbaseapp.com/wx-cms/#/project/home?pid=807102f6623db22401dab4df446d9bba
-
 账号：zero
 密码：wwwasd123
 
 > 原后台CMS网址：
->
 > https://cloud1-5geuzo8h61e6ab0a-1310011202.tcloudbaseapp.com/wx-cms/#/project/content/5b049cc86225ca550f96e2b8114eed93/edit?pid=41ae62ef6225ca0a0ae07e8d7b4ef936
->
 > 账号:abox
 > 密码:gh13235990939
 
-
-
-主要功能：
-
+### 主要功能：
 1. 在CMS中创建视频模型数据的时候webhook会监听并调用调用云函数通过got框架发送 appid和secret请求获取token从而再次请求微信官方api获取携带参数的二维码，在扫描时候自动跳转到对应的视频页
 2. CMS可视化界面，方便后台人员无需写代码只要按照格式输入即可创建对应信息
-
- 
-
-## 原型墨刀网址:
-
-https://modao.cc/app/thyDYFetr7gcmuAzix3klC 《墨客行》
 

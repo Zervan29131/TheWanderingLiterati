@@ -59,44 +59,7 @@
       "list": []
     },
     "miniprogram": {
-      "list": [
-        {
-          "id": -1,
-          "name": "视频进入页",
-          "pathName": "pages/study/study",
-          "query": ""
-        },
-        {
-          "name": "扫码",
-          "pathName": "pages/study/scan/scan",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "视频学习",
-          "pathName": "pages/study/toVideo/toVideo",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "挑战",
-          "pathName": "pages/exam/exam",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "商铺",
-          "pathName": "pages/shop/shop",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "购物界面",
-          "pathName": "pages/shop/interface",
-          "query": "",
-          "scene": null
-        }
-      ]
+      "list": []
     }
   },
   "compileType": "miniprogram",

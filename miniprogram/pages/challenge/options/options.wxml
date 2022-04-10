@@ -1,0 +1,14 @@
+<!--pages/challenge/options/options.wxml-->
+<view class="mContainer">
+  <!-- 上方问题栏 -->
+  <view class="quest">
+    <text>{{obj.title}}</text>
+  </view>
+  <!-- 下方选择栏 -->
+  <view class="ans">
+    <text bindtap="judge" data-ans="{{obj.a}}">A {{obj.a}}</text>
+    <text bindtap="judge" data-ans="{{obj.b}}">B {{obj.b}}</text>
+    <text bindtap="judge" data-ans="{{obj.c}}">C {{obj.c}}</text>
+    <text bindtap="judge" data-ans="{{obj.d}}">D {{obj.d}}</text>
+  </view>
+</view>
